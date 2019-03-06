@@ -1,6 +1,6 @@
 {
   "name": "@fastmarkets-fusion/karma-jasmine-html-reporter",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "A Karma plugin. Dynamically displays tests results at debug.html page. Fork of https://github.com/dfederm/karma-jasmine-html-reporter v1.4.0",
   "main": "./src/index.js",
   "keywords": [

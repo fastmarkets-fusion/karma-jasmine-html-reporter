@@ -1,6 +1,6 @@
-# karma-jasmine-html-reporter
+# @fastmarkets-fusion/karma-jasmine-html-reporter
 
-[![npm version](https://img.shields.io/npm/v/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/karma-jasmine-html-reporter) [![npm downloads](https://img.shields.io/npm/dm/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/karma-jasmine-html-reporter)
+[![npm version](https://img.shields.io/npm/v/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/@fastmarkets-fusion/karma-jasmine-html-reporter) [![npm downloads](https://img.shields.io/npm/dm/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/@fastmarkets-fusion/karma-jasmine-html-reporter)
 
 Reporter that dynamically shows tests results at debug.html page.
 
@@ -14,9 +14,9 @@ You can also run a describe block, or a single test.
 
 ## Installation
 
-You can simply install `karma-jasmine-html-reporter` as a devDependency by:
+You can simply install `@fastmarkets-fusion/karma-jasmine-html-reporter` as a devDependency by:
 ```bash
-npm install karma-jasmine-html-reporter --save-dev
+npm install @fastmarkets-fusion/karma-jasmine-html-reporter --save-dev
 ```
 
 ## Configuration
