@@ -90,7 +90,8 @@ jasmineRequire.HtmlReporter = function (j$) {
       timer = options.timer || noopTimer,
       htmlReporterMain,
       symbols,
-      deprecationWarnings = [];
+      deprecationWarnings = [],
+      suppressNoExpectationsWarning = true;
 
     this.initialize = function () {
       clearPrior();
@@ -139,7 +140,7 @@ jasmineRequire.HtmlReporter = function (j$) {
     this.specDone = function (result) {
       stateBuilder.specDone(result);
 
-      if (noExpectations(result) && typeof console !== 'undefined' && typeof console.error !== 'undefined') {
+      if (!suppressNoExpectationsWarning && noExpectations(result) && typeof console !== 'undefined' && typeof console.error !== 'undefined') {
         console.error('Spec \'' + result.fullName + '\' has no expectations.');
       }
 
@@ -162,7 +163,7 @@ jasmineRequire.HtmlReporter = function (j$) {
     };
 
     this.displaySpecInCorrectFormat = function (result) {
-      return noExpectations(result) ? 'jasmine-empty' : this.resultStatus(result.status);
+      return !suppressNoExpectationsWarning && noExpectations(result) ? 'jasmine-empty' : this.resultStatus(result.status);
     };
 
     this.resultStatus = function (status) {
