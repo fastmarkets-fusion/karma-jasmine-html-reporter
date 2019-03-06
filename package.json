@@ -1,7 +1,7 @@
 {
-  "name": "karma-jasmine-html-reporter",
-  "version": "1.4.0",
-  "description": "A Karma plugin. Dynamically displays tests results at debug.html page",
+  "name": "@fastmarkets-fusion/karma-jasmine-html-reporter",
+  "version": "1.4.1",
+  "description": "A Karma plugin. Dynamically displays tests results at debug.html page. Fork of https://github.com/dfederm/karma-jasmine-html-reporter v1.4.0",
   "main": "./src/index.js",
   "keywords": [
     "karma-plugin",
@@ -12,7 +12,7 @@
     "build": "node build/build.js"
   },
   "repository": {
-    "url": "https://github.com/dfederm/karma-jasmine-html-reporter"
+    "url": "https://github.com/fastmarkets-fusion/karma-jasmine-html-reporter"
   },
   "author": "",
   "contributors": [
@@ -35,6 +35,10 @@
     {
       "name": "footballencarta",
       "url": "https://github.com/footballencarta"
+    },
+    {
+      "name": "Connor Settle",
+      "url": "https://github.com/connorsettle"
     }
   ],
   "peerDependencies": {
