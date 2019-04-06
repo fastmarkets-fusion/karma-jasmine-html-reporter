@@ -39,6 +39,14 @@
     {
       "name": "Connor Settle",
       "url": "https://github.com/connorsettle"
+    },
+    {
+      "name": "Dmitry Kostyanetsky",
+      "url": "https://github.com/redrick_tmn"
+    },
+    {
+      "name": "capturetheflag",
+      "url": "https://github.com/capturetheflag"
     }
   ],
   "peerDependencies": {

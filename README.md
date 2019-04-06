@@ -1,6 +1,7 @@
 # @fastmarkets-fusion/karma-jasmine-html-reporter
 
-[![npm version](https://img.shields.io/npm/v/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/@fastmarkets-fusion/karma-jasmine-html-reporter) [![npm downloads](https://img.shields.io/npm/dm/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/@fastmarkets-fusion/karma-jasmine-html-reporter)
+[![npm version](https://img.shields.io/npm/v/@fastmarkets-fusion/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/@fastmarkets-fusion/karma-jasmine-html-reporter) 
+[![npm downloads](https://img.shields.io/npm/dm/@fastmarkets-fusion/karma-jasmine-html-reporter.svg)](https://www.npmjs.com/package/@fastmarkets-fusion/karma-jasmine-html-reporter)
 
 Reporter that dynamically shows tests results at debug.html page.
 
