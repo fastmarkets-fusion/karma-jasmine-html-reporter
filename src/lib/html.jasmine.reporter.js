@@ -322,7 +322,7 @@ jasmineRequire.HtmlReporter = function (j$) {
             domParent.appendChild(specListNode);
           }
           var specDescription = resultNode.result.description;
-          if (noExpectations(resultNode.result)) {
+          if (!suppressNoExpectationsWarning && noExpectations(resultNode.result)) {
             specDescription = 'SPEC HAS NO EXPECTATIONS ' + specDescription;
           }
           if (resultNode.result.status === 'pending' && resultNode.result.pendingReason !== '') {
